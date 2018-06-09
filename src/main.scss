@@ -4,8 +4,20 @@
 body {
     margin: 0;
     background-color: white;
-}
 
+}
+.content-site, body, html {
+    height: 100%;
+    margin: 0;
+}
+@media(min-width:767px){
+    .content-site{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
 .jumbotron {
     padding: 0;
 }
@@ -13,4 +25,18 @@ body {
     height: 250px;
     width: 100%;
     margin-bottom: 1rem;
+}
+
+footer{
+    p{
+        color: #fff;
+    }
+}
+
+
+.por-rating{
+    img{
+        max-width: 100%;
+        width: 150px;
+    }
 }
