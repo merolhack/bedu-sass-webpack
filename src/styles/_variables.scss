@@ -1,5 +1,11 @@
 $theme-colors: (
-    "primary": grey,
-    "secondary": red,
+    "primary": blue,
+    "secondary": black,
     "danger": blue
 );
+
+
+$link-color: #fff !default;
+$link-decoration: none !default;
+$link-hover-color: gray !default;
+$link-hover-decoration: underline !default;
